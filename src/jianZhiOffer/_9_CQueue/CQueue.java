@@ -1,7 +1,7 @@
 package jianZhiOffer._9_CQueue;
 
 public class CQueue {
-    private int INITIAL_SIZE = 2;
+    private static final int INITIAL_SIZE = 2;
     private int[] data = new int[INITIAL_SIZE];
     private int size = 0;
     private int start = 0;

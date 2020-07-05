@@ -9,7 +9,7 @@ import java.util.OptionalInt;
 public class SearchBound {
 
     /*
-     * nums = {1, 2, 3, 3, 3, 4, 5}
+     * nums = {1, 2, 3, 3, 3, 4}
      * target = 3
      * return 2
      */
@@ -31,6 +31,10 @@ public class SearchBound {
             } else if (nums[mid] < target) {
                 start = mid + 1;
             }
+        }
+
+        if (start < nums.length && nums[start] == target) {
+            return OptionalInt.of(start);
         }
 
         return OptionalInt.empty();
@@ -64,10 +68,11 @@ public class SearchBound {
     }
 
     public static void main(String[] args) {
-        int[] source  = new int[] {1, 2, 3, 3, 3, 4, 7};
-        int target = 3;
+        int[] source  = new int[] {1, 2, 3, 3, 3, 5};
+        int target = 4;
 
+//        System.out.println("chen");
         System.out.println(searchLeftBound(source, target));
-        System.out.println(searchRightBound(source, target));
+//        System.out.println(searchRightBound(source, target));
     }
 }

@@ -1,7 +1,6 @@
-package jianZhiOffer._12_exist;
+package jianZhiOffer._12hard_exist;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.List;
 
 public class Solution {

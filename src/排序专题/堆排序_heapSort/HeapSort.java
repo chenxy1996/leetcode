@@ -1,6 +1,8 @@
 package 排序专题.堆排序_heapSort;
+
+import 排序专题.SortTest;
+
 import java.util.Arrays;
-import java.util.SortedSet;
 
 public class HeapSort {
     public static void sort(int[] nums) {
@@ -65,5 +67,6 @@ public class HeapSort {
         int[] nums = {7, 1, 5, 2, 4, 3, 1, 2, 9, 10, 0};
         sort(nums);
         System.out.println(Arrays.toString(nums));
+        System.out.println(SortTest.test(HeapSort::sort));
     }
 }

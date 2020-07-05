@@ -45,4 +45,3 @@ public class HeapSortSimpleImpl {
         System.out.println(Arrays.toString(nums));
     }
 }
-

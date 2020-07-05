@@ -42,6 +42,5 @@ public class RestoreIpAddressNumber {
     public static void main(String[] args) {
         RestoreIpAddressNumber solution = new RestoreIpAddressNumber();
         System.out.println(solution.restoredIpNumber("19216801"));
-        String s;
     }
 }

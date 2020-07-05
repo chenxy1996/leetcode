@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/dp/无重复字符的最长字串/Solution.java
 <<<<<<< HEAD
 package dp.无重复字符的最长字串;
 
@@ -41,6 +42,9 @@ public class Solution {
 package dp.无重复字符的最长字串;
 
 import java.util.*;
+=======
+package dp.无重复字符的最长字串_可用双指针法;
+>>>>>>> 5090e186e073249e4a331b25032675f98ac10c0b:src/dp/无重复字符的最长字串_可用双指针法/Solution.java
 
 public class Solution {
     public static int lengthOfLongestSubstring(String s) {
@@ -76,4 +80,7 @@ public class Solution {
         System.out.println(lengthOfLongestSubstring(""));
     }
 }
+<<<<<<< HEAD:src/dp/无重复字符的最长字串/Solution.java
 >>>>>>> 646cbc9e7d1df523ebf453f3c08d135fb5b4ec35
+=======
+>>>>>>> 5090e186e073249e4a331b25032675f98ac10c0b:src/dp/无重复字符的最长字串_可用双指针法/Solution.java

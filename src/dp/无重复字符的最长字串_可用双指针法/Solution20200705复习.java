@@ -1,4 +1,4 @@
-package dp.无重复字符的最长字串;
+package dp.无重复字符的最长字串_可用双指针法;
 
 public class Solution20200705复习 {
     public static int lengthOfLongestSubstring(String s) {

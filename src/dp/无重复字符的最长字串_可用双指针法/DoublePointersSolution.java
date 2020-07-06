@@ -1,9 +1,5 @@
 package dp.无重复字符的最长字串_可用双指针法;
 
-import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
-
 public class DoublePointersSolution {
     public static int lengthOfLongestSubstring(String s) {
         int max = 0;

@@ -1,6 +1,5 @@
 package dp._打家劫舍问题;
 
-import org.w3c.dom.ls.LSOutput;
 
 public class Solution {
     public static int max(int[] nums) {

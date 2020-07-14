@@ -79,7 +79,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] prices = {3,3,5,0,0,3,1,4};
+        int[] prices = {0,2};
         System.out.println(solution.maxProfit(prices));
     }
 }

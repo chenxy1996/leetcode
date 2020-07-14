@@ -1,4 +1,4 @@
-package jianZhiOffer._51_数组中的逆序对;
+package jianZhiOffer._51树状数组_数组中的逆序对;
 
 import java.util.*;
 

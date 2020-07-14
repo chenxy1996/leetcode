@@ -1,5 +1,7 @@
 package jianZhiOffer.面试题01._02_判定是否为字符重排;
 
+import java.util.Arrays;
+
 // 第一种排序就可以了，但是要首先排序，然后再比较
 // 第二种利用二叉堆（优先队列），每次都比较剩余字符中最大值的字符，
 // 如果不相等就直接返回 false
@@ -25,7 +27,7 @@ public class Solution {
         return true;
     }
 
-    private void swap(char[] chars, int i, int j) {
+    private static void swap(char[] chars, int i, int j) {
         char temp = chars[i];
         chars[i] = chars[j];
         chars[j] = temp;
@@ -53,10 +55,21 @@ public class Solution {
         chars[p] = temp;
     }
 
+    public static void sort(char[] nums) {
+        if (nums == null || nums.length == 1) {
+            return;
+        }
+        construct(nums);
+        for (int i = 0; i < nums.length; i++) {
+            swap(nums, 0, nums.length - 1 - i);
+            moveFromTop(nums, 0, nums.length - i - 1);
+        }
+    }
+
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        String s1 = "";
-        String s2 = "";
-        System.out.println(solution.CheckPermutation(s1, s2));
+        String s = "befdasfthjot";
+        char[] chars = s.toCharArray();
+        sort(chars);
+        System.out.println(Arrays.toString(chars));
     }
 }

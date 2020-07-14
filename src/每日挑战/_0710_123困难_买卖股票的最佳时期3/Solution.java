@@ -7,7 +7,7 @@ public class Solution {
             return 0;
         }
         int n = prices.length;
-        int[] dp = new int[4];
+        int[] dp;
         /*
          * dp:
          * [
@@ -56,7 +56,7 @@ public class Solution {
             return 0;
         }
         int n = prices.length;
-        int[] dp = new int[4];
+        int[] dp;
         dp = new int[] {Integer.MIN_VALUE, Integer.MIN_VALUE, 0, Integer.MIN_VALUE, -prices[0]};
         for (int i = 1; i < prices.length; i++) {
             int price = prices[i];

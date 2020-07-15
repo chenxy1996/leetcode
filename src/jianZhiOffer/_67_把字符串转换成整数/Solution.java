@@ -58,8 +58,9 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        String s = "-6147483648";
-        System.out.println(solution.strToInt(s));
+        System.out.println(Integer.MIN_VALUE);
+//        Solution solution = new Solution();
+//        String s = "-6147483648";
+//        System.out.println(solution.strToInt(s));
     }
 }

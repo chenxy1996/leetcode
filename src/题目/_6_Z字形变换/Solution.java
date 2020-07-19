@@ -10,6 +10,9 @@ public class Solution {
         for (int i = 0; i < numRows; i++) {
             rows.add(new ArrayList<>());
         }
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+        }
 
         // TODO
         return null;

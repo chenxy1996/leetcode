@@ -5,20 +5,32 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Solution {
-    public String convert(String s, int numRows) {
-        List<List<Integer>> rows = new ArrayList<>();
-        for (int i = 0; i < numRows; i++) {
-            rows.add(new ArrayList<>());
-        }
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
+    public static String convert(String s, int numRows) {
+        if (numRows == 1) {
+            return s;
         }
 
-        // TODO
-        return null;
+        List<StringBuilder> rows = new ArrayList<>();
+        for (int i = 0; i < numRows; i++) {
+            rows.add(new StringBuilder());
+        }
+        boolean goDown = false;
+        int row = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            rows.get(row).append(c);
+            if (row == 0 || row == numRows - 1) {
+                goDown = ! goDown;
+            }
+            row = goDown ? row + 1 : row - 1;
+        }
+        return rows.stream().collect(Collectors.joining());
     }
 
     public static String draw(String s, int numRows) {
+        if (numRows == 1) {
+            return s;
+        }
         char cr = ' ';
 
         List<StringBuilder> rows = new ArrayList<>();
@@ -69,8 +81,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        String s = "LEETCODEISHIRING;LEETCODEISHIRING;LEETCODEISHIRING";
-        int rowNums = 5;
-        System.out.println(draw(s, rowNums));
+        String s = "AB";
+        int rowNums = 1;
+        System.out.println(convert(s, rowNums));
     }
 }

@@ -1,4 +1,4 @@
-package jianZhiOffer._61我觉得挺难的_扑克牌中的顺子;
+package jianZhiOffer._61_1_我觉得挺难的_扑克牌中的顺子;
 
 import java.util.Arrays;
 

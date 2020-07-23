@@ -1,4 +1,4 @@
-package jianZhiOffer._7hard_buildTree;
+package jianZhiOffer._7_hard_buildTree;
 
 // leetcode 运行时间最小的写法
 // 反正我是没看懂

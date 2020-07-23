@@ -1,4 +1,4 @@
-package jianZhiOffer.面试题01._02_判定是否为字符重排;
+package 面试金典._01_字符串问题._02_判定是否为字符重排;
 
 import java.util.Arrays;
 

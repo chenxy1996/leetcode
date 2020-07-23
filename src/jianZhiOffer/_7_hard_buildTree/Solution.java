@@ -1,4 +1,4 @@
-package jianZhiOffer._7hard_buildTree;
+package jianZhiOffer._7_hard_buildTree;
 
 class TreeNode {
     int val;

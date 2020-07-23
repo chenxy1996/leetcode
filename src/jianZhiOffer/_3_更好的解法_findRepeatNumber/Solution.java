@@ -1,4 +1,4 @@
-package jianZhiOffer._3更好的解法_findRepeatNumber;
+package jianZhiOffer._3_更好的解法_findRepeatNumber;
 
 public class Solution {
     public int findRepeatNumber(int[] nums) {

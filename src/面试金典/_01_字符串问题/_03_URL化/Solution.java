@@ -5,6 +5,25 @@ package 面试金典._01_字符串问题._03_URL化;
 // （注：用Java实现的话，请使用字符数组实现，以便直接在数组上操作。）
 public class Solution {
     public String replaceSpaces(String S, int length) {
-        return null;
+        char[] res = new char[length * 3];
+        int p = 0;
+        for (int i = 0; i < length; i++) {
+            char c = S.charAt(i);
+            if (c == ' ') {
+                res[p++] = '%';
+                res[p++] = '2';
+                res[p++] = '0';
+            } else {
+                res[p++] = c;
+            }
+        }
+        return String.valueOf(res, 0, p);
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        String s = "Mr John Smith    ";
+        int l = 13;
+        System.out.println(solution.replaceSpaces(s, l));
     }
 }

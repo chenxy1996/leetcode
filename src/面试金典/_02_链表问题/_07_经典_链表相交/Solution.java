@@ -1,6 +1,5 @@
-package 面试金典._02_链表问题._07_链表相交;
+package 面试金典._02_链表问题._07_经典_链表相交;
 
-import com.sun.jdi.PathSearchingVirtualMachine;
 import 面试金典._02_链表问题.LinkedListPrinter;
 import 面试金典._02_链表问题.ListNode;
 

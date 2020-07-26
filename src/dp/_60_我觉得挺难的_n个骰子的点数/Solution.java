@@ -39,6 +39,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(twoSum(11)));
+        System.out.println(Arrays.toString(twoSum1(2)));
     }
 }

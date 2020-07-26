@@ -1,4 +1,4 @@
-package 题目._64中等_最小路径和;
+package 题目._64_中等_最小路径和;
 
 public class Solution {
     public static int minPathSum(int[][] grid) {

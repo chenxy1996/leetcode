@@ -5,7 +5,7 @@ public class DoublePointersSolution {
         int max = 0;
         int currLen = 0;
         StringBuilder sb = new StringBuilder();
-        for (int l = 0, r = 0; r < s.length(); r++) {
+        for (int r = 0; r < s.length(); r++) {
             char c = s.charAt(r);
             int index;
             if ((index = sb.indexOf(String.valueOf(c))) != -1) {

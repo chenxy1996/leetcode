@@ -3,7 +3,7 @@ package dp;
 import java.util.Arrays;
 
 public class CoinChange {
-    private static int[] notes = {3, 5};
+    private static int[] notes = {1, 3, 5};
 
     public static class DfsSolution {
         private int minNumber(int sum, int maxNote) {
@@ -51,9 +51,9 @@ public class CoinChange {
 
     public static void main(String[] args) {
         DfsSolution dfsSolution = new DfsSolution();
-        System.out.println(dfsSolution.getMinNumber(1));
+//        System.out.println(dfsSolution.getMinNumber(1));
 
-//        DpSolution dpSolution = new DpSolution();
-//        System.out.println(dpSolution.getMinNumber(4));
+        DpSolution dpSolution = new DpSolution();
+        System.out.println(dpSolution.getMinNumber(4));
     }
 }

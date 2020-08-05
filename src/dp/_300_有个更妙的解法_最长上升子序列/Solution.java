@@ -1,4 +1,4 @@
-package dp._300_最长上升子序列;
+package dp._300_有个更妙的解法_最长上升子序列;
 
 public class Solution {
     public int lengthOfLIS(int[] nums) {

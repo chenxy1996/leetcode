@@ -1,48 +1,67 @@
-package 面试金典._08_递归问题._14_布尔运算;
+package 面试金典._08_递归问题._14_我觉得挺难的_布尔运算;
+
+import com.sun.jdi.PathSearchingVirtualMachine;
+
+import java.util.Arrays;
 
 public class Solution {
+    private char[] arr;
+    private int[][][] dp;
     public int countEval(String s, int result) {
-        if (s.length() == 1) {
-            return s.charAt(0) - '0' == result ? 1 : 0;
-        }
-        int operand = s.charAt(0) - '0';
-        int ans = 0;
-        char op = s.charAt(1);
-        if (op == '&') {
-            if (operand == 0 && result == 0) {
-                ans += countEval(s.substring(2), 0)+ countEval(s.substring(2), 1);
-            }
-        } else if (op == '|') {
-            if (operand == 1) {
-                ans += countEval(s.substring(2), 0)+ countEval(s.substring(2), 1);
-            } else {
-                ans += countEval(s.substring(2), 1);
-            }
-        } else if (op == '^') {
-            if (result == 0) {
-                ans += countEval(s.substring(2), operand == 1 ? 1 : 0);
-            } else {
-                ans += countEval(s.substring(2), operand == 1 ? 0 : 1);
+        arr = s.toCharArray();
+        int len = arr.length;
+        dp = new int[len][len][2];
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len; j++) {
+                Arrays.fill(dp[i][j], -1);
             }
         }
-
-        return ans;
+        return rec(0, len - 1, result);
     }
 
-    private int evalHelper(String s, int operand, char op, int res) {
+    /**
+     * 返回从索引start到end值为result的不同括号方案的个数
+     */
+    private int rec(int start, int end, int result) {
+        if (start == end) {
+            return arr[start] - '0' == result ? 1 : 0;
+        }
 
+        if (dp[start][end][result] != -1) {
+            return dp[start][end][result];
+        }
+
+        int ansCount = 0;
+        for (int k = start; k < end; k+=2) {
+            char operator = arr[k + 1];
+            for (int i = 0; i <= 1; i++) {
+                for (int j = 0; j <= 1; j++) {
+                    if (getBoolAns(i, j, operator) == result) {
+                        ansCount += rec(start, k, i) * rec(k + 2, end, j);
+                    }
+                }
+            }
+        }
+
+        dp[start][end][result] = ansCount;
+        return ansCount;
     }
 
-    private int eval(String s) {
-        int o1 = s.charAt(0) - '0';
-        char op = s.charAt(1);
-        int o2 = s.charAt(2) - '0';
-        if (op == '&') {
-            return o1 & o2;
-        } else if (op == '|') {
-            return o1 | o2;
-        } else {
-            return o1 ^ o2;
+    private int getBoolAns(int val1, int val2, char operator) {
+        switch (operator) {
+            case '&':
+                return val1 & val2;
+            case '|':
+                return val1 | val2;
+            case '^':
+                return val1 ^ val2;
         }
+        return val1 & val2;
+    }
+
+    public static void main(String[] args) {
+        String s = "0&0&0&1^1|0";
+        Solution solution = new Solution();
+        System.out.println(solution.countEval(s, 1));
     }
 }

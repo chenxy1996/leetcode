@@ -1,4 +1,4 @@
-package 题目._438_典型_和30题类似_找到字符串中所有字母异位词;
+package 题目._438_典型滑动窗口_和30题类似_找到字符串中所有字母异位词;
 
 import java.util.ArrayList;
 import java.util.List;

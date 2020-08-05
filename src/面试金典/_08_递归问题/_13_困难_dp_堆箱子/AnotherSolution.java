@@ -1,4 +1,4 @@
-package 面试金典._08_递归问题._13_困难_堆箱子;
+package 面试金典._08_递归问题._13_困难_dp_堆箱子;
 
 import java.util.Arrays;
 import java.util.Comparator;

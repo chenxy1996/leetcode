@@ -2,20 +2,21 @@ package 面试金典._10_数组问题._09_排序矩阵查找;
 
 public class Solution {
     public static boolean searchMatrix(int[][] matrix, int target) {
+        if (matrix == null || matrix.length == 0) {
+            return false;
+        }
         int height = matrix.length;
         int width = matrix[0].length;
-        int len = height * width;
-        int l = 0;
-        int r = len - 1;
-        while (l <= r) {
-            int m = (r - l) / 2 + l;
-            int val = matrix[m / width][m % width];
+        int posX = 0;
+        int posY = width - 1;
+        while (posX < height && posY >= 0) {
+            int val = matrix[posX][posY];
             if (val == target) {
                 return true;
             } else if (val < target) {
-                l = m + 1;
+                posX++;
             } else {
-                r = m - 1;
+                posY--;
             }
         }
         return false;
@@ -23,13 +24,11 @@ public class Solution {
 
     public static void main(String[] args) {
         int[][] matrix = {
-                            {1, 4, 7, 11, 15},
-                            {2, 5, 8, 12, 19},
-                            {3, 6, 9, 16, 22},
-                            {10, 13, 14, 17, 24},
-                            {18, 21, 23, 26, 30}
+                            {1,3,5,7},
+                            {10,11,16,20},
+                            {23,30,34,50},
                         };
-        int target = 8;
+        int target = 13;
         System.out.println(searchMatrix(matrix, target));
     }
 }

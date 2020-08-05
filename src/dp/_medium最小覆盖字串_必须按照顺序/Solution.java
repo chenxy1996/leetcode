@@ -6,7 +6,8 @@ package dp._medium最小覆盖字串_必须按照顺序;
 // 返回 rfgn
 
 /**
- * 这里用了动态规划
+ * 这里用了动态规划,
+ * 但是不太行
  */
 public class Solution {
     public static String minWindow(String s, String t) {

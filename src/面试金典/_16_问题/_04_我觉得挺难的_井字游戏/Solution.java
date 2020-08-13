@@ -1,4 +1,4 @@
-package 面试金典._16_数学问题._04_我觉得挺难的_井字游戏;
+package 面试金典._16_问题._04_我觉得挺难的_井字游戏;
 
 public class Solution {
     public static String tictactoe(String[] board) {

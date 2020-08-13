@@ -1,4 +1,4 @@
-package 面试金典._16_数学问题._06_最小差;
+package 面试金典._16_问题._06_最小差;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package 面试金典._16_数学问题._17_连续数列;
+package 面试金典._16_问题._17_连续数列;
 
 public class Solution {
     public int maxSubArray(int[] nums) {

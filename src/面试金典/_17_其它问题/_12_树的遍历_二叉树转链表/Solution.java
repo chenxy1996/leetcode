@@ -1,6 +1,5 @@
-package 面试金典._17_其它问题._12_二叉树转链表;
+package 面试金典._17_其它问题._12_树的遍历_二叉树转链表;
 
-import com.sun.source.tree.Tree;
 import 面试金典._04_树和图问题.TreeNode;
 
 public class Solution {

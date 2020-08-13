@@ -1,4 +1,4 @@
-package 题目._84_困难_柱状图中的最大矩形;
+package 单调栈._84_困难_柱状图中的最大矩形;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

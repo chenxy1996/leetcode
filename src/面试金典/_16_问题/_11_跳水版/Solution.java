@@ -1,4 +1,4 @@
-package 面试金典._16_数学问题._11_跳水版;
+package 面试金典._16_问题._11_跳水版;
 
 import java.util.Arrays;
 

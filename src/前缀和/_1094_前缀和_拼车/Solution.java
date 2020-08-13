@@ -1,4 +1,4 @@
-package 题目._1094_前缀和_拼车;
+package 前缀和._1094_前缀和_拼车;
 
 public class Solution {
     public boolean carPooling(int[][] trips, int capacity) {

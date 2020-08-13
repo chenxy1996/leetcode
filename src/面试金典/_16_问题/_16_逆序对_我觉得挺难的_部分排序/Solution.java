@@ -1,6 +1,5 @@
-package 面试金典._16_数学问题._16_逆序对_我觉得挺难的_部分排序;
+package 面试金典._16_问题._16_逆序对_我觉得挺难的_部分排序;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Solution {

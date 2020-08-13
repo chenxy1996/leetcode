@@ -1,4 +1,4 @@
-package 面试金典._17_动态规划._01_不用加号的加法;
+package 面试金典._17_其它问题._01_不用加号的加法;
 
 public class Solution {
     public static int add(int a, int b) {

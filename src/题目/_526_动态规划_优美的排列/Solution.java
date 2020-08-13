@@ -1,4 +1,4 @@
-package 题目._526_优美的排列;
+package 题目._526_动态规划_优美的排列;
 
 import java.util.ArrayList;
 import java.util.List;

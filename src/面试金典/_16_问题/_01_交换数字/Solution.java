@@ -1,4 +1,4 @@
-package 面试金典._16_数学问题._01_交换数字;
+package 面试金典._16_问题._01_交换数字;
 
 public class Solution {
     public int[] swapNumbers(int[] numbers) {

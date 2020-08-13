@@ -1,4 +1,4 @@
-package 面试金典._10_数组问题._02_变位词组;
+package 滑动窗口.面试经典_16_02_变位词组;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package 面试金典._16_数学问题._05_阶乘尾数;
+package 面试金典._16_问题._05_阶乘尾数;
 
 public class OptimalSolution {
     public static int trailingZeroes(int n) {

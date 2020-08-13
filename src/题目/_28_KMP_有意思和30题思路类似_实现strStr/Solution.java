@@ -1,4 +1,4 @@
-package 题目._28_有意思和30题思路类似_实现strStr;
+package 题目._28_KMP_有意思和30题思路类似_实现strStr;
 
 // 给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串
 // 出现的第一个位置 (从0开始)。如果不存在，则返回  -1。

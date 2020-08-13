@@ -1,4 +1,4 @@
-package 面试金典._16_数学问题._09_运算;
+package 面试金典._16_问题._09_运算;
 
 public class Operations {
     public Operations() {

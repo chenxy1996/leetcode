@@ -1,4 +1,4 @@
-package 面试金典._16_数学问题._15_里面的map用的有意思_珠玑妙算;
+package 面试金典._16_问题._15_里面的map用的有意思_珠玑妙算;
 
 public class Solution {
     public int[] masterMind(String solution, String guess) {

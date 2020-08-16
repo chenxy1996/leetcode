@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._33_二叉搜索树的后序遍历序列.循环;
+package 剑指offer二刷_20200806._33_二叉搜索树的后序遍历序列.循环;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

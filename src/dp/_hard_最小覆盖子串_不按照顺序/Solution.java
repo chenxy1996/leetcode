@@ -1,4 +1,4 @@
-package dp._hard最小覆盖子串_不按照顺序;
+package dp._hard_最小覆盖子串_不按照顺序;
 
 // s 的子串包含字串 t
 // s 的子串可以不按照顺序

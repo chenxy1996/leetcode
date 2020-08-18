@@ -1,4 +1,4 @@
-package dp._medium最小覆盖字串_必须按照顺序;
+package dp._medium_最小覆盖字串_必须按照顺序;
 
 // s 的子串包含字串 t
 // s 的子串可以不按照顺序

@@ -1,5 +1,8 @@
-package dp.__numTrees;
+package dp._96_不同的二叉搜索数02;
 
+/**
+ * 95 题:不同的二叉搜索树
+ */
 public class Solution {
     public int numTrees(int n) {
         int[] dp = new int[n + 1];

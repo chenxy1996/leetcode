@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._14_02_减绳子_贪心算法;
+package 剑指offer二刷_20200806._14_02_减绳子_贪心算法;
 
 public class Solution {
     public static int cuttingRopes(int n) {

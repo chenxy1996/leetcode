@@ -1,4 +1,4 @@
-package 剑指offer二刷_20200806._38_04_子集2;
+package 剑指offer二刷_20200806._38_04_子集2_有重复数字的组合;
 
 import java.util.ArrayList;
 import java.util.Arrays;

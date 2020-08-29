@@ -1,6 +1,4 @@
-package 题目._56_合并区间;
-
-import jdk.swing.interop.SwingInterOpUtils;
+package 题目._56_中等_合并区间;
 
 import java.util.ArrayList;
 import java.util.Arrays;

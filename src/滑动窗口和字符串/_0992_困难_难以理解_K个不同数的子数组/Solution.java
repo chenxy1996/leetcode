@@ -1,4 +1,4 @@
-package 滑动窗口和字符串._0922_困难_难以理解_K个不同数的子数组;
+package 滑动窗口和字符串._0992_困难_难以理解_K个不同数的子数组;
 
 import java.util.HashMap;
 import java.util.Map;

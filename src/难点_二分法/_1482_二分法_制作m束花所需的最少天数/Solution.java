@@ -1,4 +1,4 @@
-package 题目._1482_二分法_制作m束花所需的最少天数;
+package 难点_二分法._1482_二分法_制作m束花所需的最少天数;
 
 public class Solution {
     public int minDays(int[] bloomDay, int m, int k) {

@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._26_树的子结构;
+package 剑指offer二刷_20200806._26_树的子结构;
 
 import 剑指offer.TreeNode;
 

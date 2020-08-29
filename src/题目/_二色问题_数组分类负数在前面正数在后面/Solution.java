@@ -1,4 +1,4 @@
-package 题目.数组分类负数在前面正数在后面;
+package 题目._二色问题_数组分类负数在前面正数在后面;
 
 import java.util.Arrays;
 

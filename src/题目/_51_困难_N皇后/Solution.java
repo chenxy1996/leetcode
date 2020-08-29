@@ -1,4 +1,4 @@
-package 题目._51_N皇后;
+package 题目._51_困难_N皇后;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -55,5 +55,9 @@ public class Solution {
             arr.add(String.valueOf(cs));
         }
         ans.add(arr);
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
     }
 }

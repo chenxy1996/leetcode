@@ -1,4 +1,4 @@
-package 剑指offer二刷_20200806._33_02_验证二叉搜索树;
+package 剑指offer二刷_20200806._33_02_验证二叉搜索树.递归;
 
 import 剑指offer.TreeNode;
 

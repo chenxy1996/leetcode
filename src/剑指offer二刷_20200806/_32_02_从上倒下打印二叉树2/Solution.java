@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._32_02_从上倒下打印二叉树2;
+package 剑指offer二刷_20200806._32_02_从上倒下打印二叉树2;
 
 import 剑指offer.TreeNode;
 

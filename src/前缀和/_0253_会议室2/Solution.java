@@ -1,4 +1,4 @@
-package 前缀和._253_会议室2;
+package 前缀和._0253_会议室2;
 
 public class Solution {
     public int minMeetingRooms(int[][] intervals) {

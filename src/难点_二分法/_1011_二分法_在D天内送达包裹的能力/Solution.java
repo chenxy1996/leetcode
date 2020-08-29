@@ -1,4 +1,4 @@
-package 题目._1011_二分法_在D天内送达包裹的能力;
+package 难点_二分法._1011_二分法_在D天内送达包裹的能力;
 
 public class Solution {
     public int shipWithinDays(int[] weights, int D) {
@@ -35,8 +35,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] weights = {1,2,3,1,1};
-        int D = 4;
+        int[] weights = {1,2,3,4,5,6,7,8,9,10};
+        int D = 5;
         System.out.println(new Solution().shipWithinDays(weights, D));
     }
 }

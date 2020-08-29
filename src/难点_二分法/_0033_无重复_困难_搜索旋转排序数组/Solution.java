@@ -1,4 +1,4 @@
-package 难点_二分法._033_无重复_困难_搜索旋转排序数组;
+package 难点_二分法._0033_无重复_困难_搜索旋转排序数组;
 
 public class Solution {
     public static int search(int[] nums, int target) {

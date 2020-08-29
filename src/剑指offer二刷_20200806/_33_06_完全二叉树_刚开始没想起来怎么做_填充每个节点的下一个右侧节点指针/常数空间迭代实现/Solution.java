@@ -1,25 +1,20 @@
-package 剑指offer二刷_20200806._33_06_刚开始没想起来怎么做_填充每个节点的下一个右侧节点指针.常数空间迭代实现;
+package 剑指offer二刷_20200806._33_06_完全二叉树_刚开始没想起来怎么做_填充每个节点的下一个右侧节点指针.常数空间迭代实现;
 
-import 剑指offer二刷_20200806._33_06_刚开始没想起来怎么做_填充每个节点的下一个右侧节点指针.Node;
+import 剑指offer二刷_20200806._33_06_完全二叉树_刚开始没想起来怎么做_填充每个节点的下一个右侧节点指针.Node;
 
 public class Solution {
     public static Node connect(Node root) {
         Node p = root;
         while (p != null) {
-            Node dummy = new Node();
-            Node ptr = dummy;
-            while (p != null) {
-                if (p.left != null) {
-                    ptr.next = p.left;
-                    ptr = ptr.next;
-                }
-                if (p.right != null) {
-                    ptr.next = p.right;
-                    ptr = ptr.next;
+            Node leftMost = p;
+            while (p != null && p.left != null) {
+                p.left.next = p.right;
+                if (p.next != null) {
+                    p.right.next = p.next.left;
                 }
                 p = p.next;
             }
-            p = dummy.next;
+            p = leftMost.left;
         }
         return root;
     }

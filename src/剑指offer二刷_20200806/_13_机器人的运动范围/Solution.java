@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._13_机器人的运动范围;
+package 剑指offer二刷_20200806._13_机器人的运动范围;
 
 public class Solution {
     private static boolean[][] visited;

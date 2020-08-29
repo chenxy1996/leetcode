@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._02_单例模式.普通多线程单例创建;
+package 剑指offer二刷_20200806._02_单例模式.普通多线程单例创建;
 
 public final class Singleton1 {
     private static volatile Singleton1 instance;

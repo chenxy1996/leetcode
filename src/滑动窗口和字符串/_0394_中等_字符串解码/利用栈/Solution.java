@@ -1,4 +1,4 @@
-package 滑动窗口和字符串._394_中等_字符串解码.利用栈;
+package 滑动窗口和字符串._0394_中等_字符串解码.利用栈;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

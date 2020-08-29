@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._20_01_表示数值的字符串;
+package 剑指offer二刷_20200806._20_01_表示数值的字符串;
 
 public class Solution {
     public static boolean isNumber(String s) {

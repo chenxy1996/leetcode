@@ -1,4 +1,4 @@
-package 难点_二分法._153_无重复_寻找排序数组的最小值;
+package 难点_二分法._0153_无重复_寻找排序数组的最小值;
 
 public class Solution {
     public static int findMin(int[] nums) {

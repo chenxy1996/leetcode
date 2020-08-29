@@ -1,4 +1,4 @@
-package 难点_二分法._410_困难_二分法_也可以用dp_分割数组的最大值;
+package 难点_二分法._0410_困难_二分法_也可以用dp_分割数组的最大值;
 
 public class Solution {
     public int splitArray(int[] nums, int m) {

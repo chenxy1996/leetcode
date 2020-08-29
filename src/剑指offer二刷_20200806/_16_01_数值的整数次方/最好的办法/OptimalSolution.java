@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._16_01_数值的整数次方.最好的办法;
+package 剑指offer二刷_20200806._16_01_数值的整数次方.最好的办法;
 
 public class OptimalSolution {
     public double myPow(double x, int n) {

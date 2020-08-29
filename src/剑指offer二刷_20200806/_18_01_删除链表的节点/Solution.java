@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._18_01_删除链表的节点;
+package 剑指offer二刷_20200806._18_01_删除链表的节点;
 
 import 剑指offer.ListNode;
 

@@ -1,4 +1,4 @@
-package 剑指offer二刷_20200806._38_08_实现起来很麻烦_第K个排列;
+package 剑指offer二刷_20200806._38_08_实现起来比较麻烦_第K个排列.自己初次写的用了二分法;
 
 public class Solution {
     public static String getPermutation(int n, int k) {

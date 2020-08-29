@@ -1,4 +1,4 @@
-package 剑指offer二刷_20200806._35_02_链表排序.归并排序.循环;
+package 剑指offer二刷_20200806._35_02_比较繁琐_链表排序.归并排序.循环;
 
 import 剑指offer.ListNode;
 

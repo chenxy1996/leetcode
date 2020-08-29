@@ -1,4 +1,4 @@
-package 题目._80_删除排序数组中的重复项2.更棒的解法;
+package 题目._80_有非常巧妙的解法_删除排序数组中的重复项2.更棒的解法;
 
 public class Solution {
     public static int removeDuplicates(int[] nums) {

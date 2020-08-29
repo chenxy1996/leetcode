@@ -1,5 +1,8 @@
-package dp._45_困难_跳跃游戏2;
+package dp._45_困难_跳跃游戏2.dp;
 
+/**
+ * dp 超时了
+ */
 public class Solution {
     public static int jump(int[] nums) {
         int len = nums.length;

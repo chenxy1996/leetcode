@@ -1,4 +1,4 @@
-package 难点_二分法._60_第K个排列;
+package 难点_二分法._0060_第K个排列;
 
 import java.util.ArrayList;
 import java.util.List;

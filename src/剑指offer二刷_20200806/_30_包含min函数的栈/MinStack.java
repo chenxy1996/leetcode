@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._30_包含min函数的栈;
+package 剑指offer二刷_20200806._30_包含min函数的栈;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

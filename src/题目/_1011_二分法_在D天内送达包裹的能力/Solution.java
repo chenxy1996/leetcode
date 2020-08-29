@@ -1,4 +1,4 @@
-package 题目._1011_在D天内送达包裹的能力;
+package 题目._1011_二分法_在D天内送达包裹的能力;
 
 public class Solution {
     public int shipWithinDays(int[] weights, int D) {

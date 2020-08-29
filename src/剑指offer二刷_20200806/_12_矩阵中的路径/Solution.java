@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._12_矩阵中的路径;
+package 剑指offer二刷_20200806._12_矩阵中的路径;
 
 public class Solution {
     public boolean exist(char[][] board, String word) {

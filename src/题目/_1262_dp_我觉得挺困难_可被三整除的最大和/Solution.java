@@ -1,4 +1,4 @@
-package 题目._1262_可被三整除的最大和;
+package 题目._1262_dp_我觉得挺困难_可被三整除的最大和;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package 题目._1383_最小堆_最大的团队表现值;
+package 题目._1383_最小堆_困难_最大的团队表现值;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;

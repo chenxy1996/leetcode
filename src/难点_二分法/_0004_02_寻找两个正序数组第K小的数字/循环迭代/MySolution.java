@@ -1,4 +1,4 @@
-package 难点_二分法._04_02_寻找两个正序数组第K小的数字.循环迭代;
+package 难点_二分法._0004_02_寻找两个正序数组第K小的数字.循环迭代;
 
 public class MySolution {
     public static int getKth(int[] nums1, int[] nums2, int k) {

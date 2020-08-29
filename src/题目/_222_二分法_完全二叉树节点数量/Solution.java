@@ -1,7 +1,11 @@
-package 题目._222_完全二叉树节点数量;
+package 题目._222_二分法_完全二叉树节点数量;
 
 import 剑指offer.TreeNode;
 
+/**
+ * 初见的垃圾解法
+ * 这道题做的不行, 自己给自己整麻烦了
+ */
 public class Solution {
     public int countNodes(TreeNode root) {
         if (root == null) {

@@ -1,4 +1,4 @@
-package 剑指offer二刷_20200806._34_02_求和路径_不只是从根节点到叶节点.ONlogN;
+package 剑指offer二刷_20200806._34_02_求和路径_前缀和_不只是从根节点到叶节点.ONlogN;
 
 import 剑指offer.TreeNode;
 

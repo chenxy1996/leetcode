@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._25_01_合并两个排序的链表;
+package 剑指offer二刷_20200806._25_01_合并两个排序的链表;
 
 import 剑指offer.ListNode;
 

@@ -1,4 +1,4 @@
-package 难点_二分法.LCP_12_小张刷题计划;
+package 难点_二分法.LCP_12_小张刷题计划_分割数组的最大值变种;
 
 /**
  * 给定一个数组，将其划分成 M 份，使得每份元素之和最大值最小，每份可以任意减去其中一个元素。
@@ -43,5 +43,11 @@ public class Solution {
         }
         //结束时 left的值即为每天所花的最长时间中最小的那个
         return left;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1,2,3,3};
+        int m = 2;
+        System.out.println(new Solution().minTime(nums, m));
     }
 }

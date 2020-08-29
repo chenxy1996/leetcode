@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._17_01_打印从1到最大的n位数;
+package 剑指offer二刷_20200806._17_01_打印从1到最大的n位数;
 
 public class Solution {
     public static void print1ToMaxOfNDigits(int n) {

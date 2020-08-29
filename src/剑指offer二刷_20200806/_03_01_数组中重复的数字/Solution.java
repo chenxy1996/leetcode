@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._03_01_数组中重复的数字;
+package 剑指offer二刷_20200806._03_01_数组中重复的数字;
 
 public class Solution {
     public static int findRepeatNumber(int[] nums) {

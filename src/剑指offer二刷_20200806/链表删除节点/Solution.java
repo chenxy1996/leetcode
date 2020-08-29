@@ -1,8 +1,6 @@
-package 剑指offer._0_剑指offer二刷_20200806.链表删除节点;
+package 剑指offer二刷_20200806.链表删除节点;
 
 import 剑指offer.ListNode;
-
-import java.util.List;
 
 public class Solution {
     public static ListNode remove(ListNode head, int val) {

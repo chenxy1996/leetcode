@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._22_01_链表中倒数第K个节点;
+package 剑指offer二刷_20200806._22_01_链表中倒数第K个节点;
 
 import 剑指offer.ListNode;
 

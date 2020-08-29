@@ -1,4 +1,4 @@
-package 剑指offer二刷_20200806._38_字符串的排列;
+package 剑指offer二刷_20200806._38_01_字符串的排列_bitmap存储;
 
 import java.util.ArrayList;
 import java.util.List;

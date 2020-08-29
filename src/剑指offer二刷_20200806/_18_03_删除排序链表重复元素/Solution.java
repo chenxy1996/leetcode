@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._18_03_删除排序链表重复元素;
+package 剑指offer二刷_20200806._18_03_删除排序链表重复元素;
 
 import 剑指offer.ListNode;
 

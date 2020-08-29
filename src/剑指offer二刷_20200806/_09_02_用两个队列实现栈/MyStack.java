@@ -1,9 +1,7 @@
-package 剑指offer._0_剑指offer二刷_20200806._09_02_用两个队列实现栈;
+package 剑指offer二刷_20200806._09_02_用两个队列实现栈;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class MyStack {
     Deque<Integer> deque1 = new ArrayDeque<>();

@@ -1,7 +1,10 @@
-package 题目._873_最长的斐波那契子序列的长度;
+package 题目._873_dp_最长的斐波那契子序列的长度.暴力枚举;
 
 import java.util.Arrays;
 
+/**
+ * 初见只会暴力法
+ */
 public class Solution {
     public static int lenLongestFibSubseq(int[] A) {
         if (A == null) {

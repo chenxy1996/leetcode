@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._09_04_用两个栈实现排序栈;
+package 剑指offer二刷_20200806._09_04_用两个栈实现排序栈;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._05_01_替换空格;
+package 剑指offer二刷_20200806._05_01_替换空格;
 
 public class Solution {
     public String replaceSpace(String s) {

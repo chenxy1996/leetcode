@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._15_03_是否为2的整数次方;
+package 剑指offer二刷_20200806._15_03_是否为2的整数次方;
 
 public class Solution {
     public static boolean isPowOf2(int n) {

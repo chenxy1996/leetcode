@@ -1,4 +1,4 @@
-package 滑动窗口和字符串._438_字符串太长了不能用_找到字符串中所有字母异位词.利用离散数组生成哈希值;
+package 滑动窗口和字符串._0438_字符串太长了不能用_找到字符串中所有字母异位词.利用离散数组生成哈希值;
 
 import java.util.ArrayList;
 import java.util.List;

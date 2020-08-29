@@ -1,4 +1,4 @@
-package 难点_二分法._04_01_困难_寻找两个正序数组的中位数;
+package 难点_二分法._0004_01_困难_寻找两个正序数组的中位数;
 
 public class Solution {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {

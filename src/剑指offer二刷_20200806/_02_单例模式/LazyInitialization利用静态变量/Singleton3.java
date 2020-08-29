@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._02_单例模式.LazyInitialization利用静态变量;
+package 剑指offer二刷_20200806._02_单例模式.LazyInitialization利用静态变量;
 
 public final class Singleton3 {
     private static class InnerClass {

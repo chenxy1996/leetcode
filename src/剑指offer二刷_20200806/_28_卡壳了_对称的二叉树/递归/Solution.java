@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._28_卡壳了_对称的二叉树.递归;
+package 剑指offer二刷_20200806._28_卡壳了_对称的二叉树.递归;
 
 import 剑指offer.TreeNode;
 

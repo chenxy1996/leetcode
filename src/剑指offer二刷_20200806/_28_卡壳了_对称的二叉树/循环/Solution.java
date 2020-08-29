@@ -1,6 +1,5 @@
-package 剑指offer._0_剑指offer二刷_20200806._28_卡壳了_对称的二叉树.循环;
+package 剑指offer二刷_20200806._28_卡壳了_对称的二叉树.循环;
 
-import 剑指offer.ListNode;
 import 剑指offer.TreeNode;
 
 import java.util.ArrayDeque;

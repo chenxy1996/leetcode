@@ -1,6 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._02_单例模式.利用静态变量;
-
-import 剑指offer._0_剑指offer二刷_20200806._02_单例模式.普通多线程单例创建.Singleton1;
+package 剑指offer二刷_20200806._02_单例模式.利用静态变量;
 
 public final class Singleton2 {
     private static final Singleton2 INSTANCE = new Singleton2();

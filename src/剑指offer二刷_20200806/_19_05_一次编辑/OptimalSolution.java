@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._19_05_一次编辑;
+package 剑指offer二刷_20200806._19_05_一次编辑;
 
 public class OptimalSolution {
     public boolean oneEditAway(String first, String second) {

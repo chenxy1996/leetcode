@@ -1,4 +1,4 @@
-package 剑指offer二刷_20200806._38_07_比特位计数.更好的解法;
+package 剑指offer二刷_20200806._38_07_有个很妙的解法_比特位计数.更好的解法;
 
 public class Solution {
     public int[] countBits(int num) {

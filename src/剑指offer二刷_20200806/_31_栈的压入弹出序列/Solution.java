@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._31_栈的压入弹出序列;
+package 剑指offer二刷_20200806._31_栈的压入弹出序列;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -1,4 +1,4 @@
-package 滑动窗口和字符串._424_有点难以理解_替换后的最长重复字符;
+package 滑动窗口和字符串._0424_有点难以理解_替换后的最长重复字符;
 
 public class Solution {
     private static int[] map = new int[26];

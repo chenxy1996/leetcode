@@ -1,4 +1,4 @@
-package 剑指offer._0_剑指offer二刷_20200806._23_链表中环的入口;
+package 剑指offer二刷_20200806._23_链表中环的入口;
 
 import 剑指offer.ListNode;
 

@@ -1,4 +1,4 @@
-package 滑动窗口和字符串._567_字符串的排列;
+package 滑动窗口和字符串._0567_字符串的排列;
 
 public class Solution {
     public boolean checkInclusion(String s1, String s2) {

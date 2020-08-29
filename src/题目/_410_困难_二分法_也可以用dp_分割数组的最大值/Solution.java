@@ -1,9 +1,4 @@
-package 题目._410_困难_二分法_分割数组的最大值;
-
-import javax.swing.*;
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.Deque;
+package 题目._410_困难_二分法_也可以用dp_分割数组的最大值;
 
 public class Solution {
     public int splitArray(int[] nums, int m) {

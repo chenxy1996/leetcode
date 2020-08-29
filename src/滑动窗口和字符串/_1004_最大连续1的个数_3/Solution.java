@@ -1,4 +1,4 @@
-package 滑动窗口._1004_最大连续1的个数_3;
+package 滑动窗口和字符串._1004_最大连续1的个数_3;
 
 public class Solution {
     public static int longestOnes(int[] A, int K) {

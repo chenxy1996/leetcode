@@ -1,4 +1,4 @@
-package 剑指offer二刷_20200806._40_二叉堆_最小的K个数;
+package 剑指offer二刷_20200806._40_排序衍生_最小的K个数.桶排序;
 
 public class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {

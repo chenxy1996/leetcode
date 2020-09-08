@@ -3,6 +3,7 @@ package dp._32_困难_最长有效括号.栈;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+// 哨兵模式
 public class Solution {
     public static int longestValidParentheses(String s) {
         if (s == null || s.length() == 0) {
@@ -32,6 +33,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(longestValidParentheses("())"));
+        System.out.println(longestValidParentheses("()(())"));
     }
 }

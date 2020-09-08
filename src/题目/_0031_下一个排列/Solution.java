@@ -1,4 +1,4 @@
-package 题目._31_下一个排列;
+package 题目._0031_下一个排列;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

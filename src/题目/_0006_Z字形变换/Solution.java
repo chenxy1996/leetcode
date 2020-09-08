@@ -1,4 +1,4 @@
-package 题目._06_Z字形变换;
+package 题目._0006_Z字形变换;
 
 import java.util.ArrayList;
 import java.util.List;

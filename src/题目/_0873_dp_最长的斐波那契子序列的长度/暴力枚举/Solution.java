@@ -1,4 +1,4 @@
-package 题目._873_dp_最长的斐波那契子序列的长度.暴力枚举;
+package 题目._0873_dp_最长的斐波那契子序列的长度.暴力枚举;
 
 import java.util.Arrays;
 

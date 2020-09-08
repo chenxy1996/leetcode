@@ -1,4 +1,4 @@
-package 每日挑战._0712_174困难_地下城游戏;
+package 每日挑战._0712_174困难_从后往前思考_地下城游戏;
 
 public class OptimalSolution {
     public static int calculateMinimumHP(int[][] dungeon) {

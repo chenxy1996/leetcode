@@ -1,4 +1,4 @@
-package 题目._1081_不同字符的最小子序列;
+package 题目._1081_最大根堆_不同字符的最小子序列;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

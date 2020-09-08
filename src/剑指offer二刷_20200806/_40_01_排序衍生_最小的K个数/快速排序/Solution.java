@@ -1,4 +1,4 @@
-package 剑指offer二刷_20200806._40_排序衍生_最小的K个数.快速排序;
+package 剑指offer二刷_20200806._40_01_排序衍生_最小的K个数.快速排序;
 
 import java.util.Arrays;
 

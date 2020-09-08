@@ -1,4 +1,4 @@
-package 前缀和._0724_寻找数组的中心索引;
+package 前缀._0724_寻找数组的中心索引;
 
 public class Solution {
     public int pivotIndex(int[] nums) {

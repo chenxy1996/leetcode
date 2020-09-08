@@ -1,6 +1,4 @@
-package 题目._14_最长公共前缀;
-
-import java.security.spec.RSAOtherPrimeInfo;
+package 题目._0014_最长公共前缀;
 
 public class Solution {
     public String longestCommonPrefix(String[] strs) {

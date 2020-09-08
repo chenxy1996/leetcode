@@ -1,4 +1,4 @@
-package 题目._22_中等_括号生成;
+package 题目._0022_中等_括号生成;
 
 import java.util.ArrayList;
 import java.util.List;

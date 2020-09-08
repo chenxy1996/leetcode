@@ -1,4 +1,4 @@
-package 题目._30_困难_串联所有单词的子串;
+package 题目._0030_困难_串联所有单词的子串;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package 题目._873_dp_最长的斐波那契子序列的长度.动态规划;
+package 题目._0873_dp_最长的斐波那契子序列的长度.动态规划;
 
 import java.util.HashMap;
 import java.util.Map;

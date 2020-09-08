@@ -1,4 +1,4 @@
-package 前缀和._0560_和为K的子数组_;
+package 前缀._0560_和为K的子数组_;
 
 import java.util.HashMap;
 import java.util.Map;

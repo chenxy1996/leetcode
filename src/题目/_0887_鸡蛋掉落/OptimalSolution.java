@@ -1,4 +1,4 @@
-package 题目._887_鸡蛋掉落;
+package 题目._0887_鸡蛋掉落;
 
 public class OptimalSolution {
     public int superEggDrop(int K, int N) {

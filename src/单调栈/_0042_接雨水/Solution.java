@@ -1,4 +1,4 @@
-package 单调栈._42_接雨水;
+package 单调栈._0042_接雨水;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

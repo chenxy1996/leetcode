@@ -54,6 +54,6 @@ public class CoinChange {
 //        System.out.println(dfsSolution.getMinNumber(1));
 
         DpSolution dpSolution = new DpSolution();
-        System.out.println(dpSolution.getMinNumber(4));
+        System.out.println(dpSolution.getMinNumber(5));
     }
 }

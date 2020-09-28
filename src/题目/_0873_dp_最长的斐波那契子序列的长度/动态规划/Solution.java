@@ -34,5 +34,6 @@ public class Solution {
     public static void main(String[] args) {
         int[] nums = {2,4,7,8,9,10,14,15,18,23,32,50};
         System.out.println(lenLongestFibSubseq(nums));
+        Map<Integer, Integer> map = new HashMap<>();
     }
 }
